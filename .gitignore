@@ -1,0 +1,64 @@
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Jetbrains files
+**/.idea/**/workspace.xml
+**/.idea/**/tasks.xml
+**/.idea/**/usage.statistics.xml
+**/.idea/**/dictionaries
+**/.idea/**/shelf
+**/.idea/**/misc.xml
+**/.idea/**/contentModel.xml
+**/.idea/**/dataSources/
+**/.idea/**/dataSources.ids
+**/.idea/**/dataSources.local.xml
+**/.idea/**/sqlDataSources.xml
+**/.idea/**/dynamic.xml
+**/.idea/**/uiDesigner.xml
+**/.idea/**/dbnavigator.xml
+
+# Jetbrains doesn't say to ignore these, but it seems like they shouldn't be committed
+**/.idea/**/watcherTasks.xml
+
+.vs
+.vscode
+.vscode-test
+
+.gradle
+.qodana
+.tmp
+
+node_modules
+bin
+obj
+
+App_Data
+
+nupkg
+
+dist
+build
+publish
+
+*.doctree.txt
+*.actual.cst
+*.actual.test
+*.vsix
+/.husky/pre-commit
+
+debug.txt
+
+Src/CSharpier.VSCode/.idea/prettier.xml
+/Src/CSharpier.Tests/Samples/Scratch.cst
+
+.idea/.idea.CSharpier/.idea/riderMarkupCache.xml
+/Src/CSharpier.Benchmarks/BenchmarkDotNet.Artifacts/
+/Src/CSharpier.Tests/TestResults
+/Src/CSharpier.MsBuild.Test/.idea
+/Tests/MsBuild/GeneratedScenarios
