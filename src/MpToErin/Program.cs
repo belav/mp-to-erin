@@ -41,3 +41,4 @@ app.UseSpa(spa =>
     }
 });
 
+app.Run();
